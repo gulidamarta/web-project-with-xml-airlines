@@ -20,7 +20,7 @@ public class StewardDao implements Dao<AircraftCrew> {
         Connection connection = ConnectionCreator.create();
         XmlParser xmlParser = new XmlParser();
         LowCostAirlines lowCostAirlines = xmlParser.loadModel();
-        AircraftCrew steward = lowCostAirlines.getLowCostAirlineTripAmerican().getSteward();
+        AircraftCrew steward = lowCostAirlines.getLowCostAirlineTrips().get(0).getSteward();
         stewards.add(steward);
         List<String> data= Arrays.asList(steward.getName(),steward.getLastName(),
                 String.valueOf(steward.getWorkExperience()),steward.getJobDescription(),
@@ -33,7 +33,7 @@ public class StewardDao implements Dao<AircraftCrew> {
             e.printStackTrace();
         }
 
-        steward = lowCostAirlines.getLowCostAirlineTripBlueSky().getSteward();
+        steward = lowCostAirlines.getLowCostAirlineTrips().get(1).getSteward();
         stewards.add(steward);
         data = Arrays.asList(steward.getName(), steward.getLastName(),
                 String.valueOf(steward.getWorkExperience()),steward.getJobDescription(),

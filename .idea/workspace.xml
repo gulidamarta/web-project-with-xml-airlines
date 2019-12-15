@@ -6,7 +6,128 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ac3ce1fb-032e-4313-8557-aae4f6ec8f86" name="Default Changelist" comment="" />
+    <list default="true" id="ac3ce1fb-032e-4313-8557-aae4f6ec8f86" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_jstl_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/webContexts.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com.lowcostairline/controller/FrontController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com.lowcostairline/parsers/xml/DomParser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com.lowcostairline/parsers/xml/JaxBParser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com.lowcostairline/parsers/xml/PlanHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com.lowcostairline/parsers/xml/SaxParser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com.lowcostairline/parsers/xml/XmlParser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lowcostairline/builder/PlanBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lowcostairline/command/Command.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lowcostairline/command/CommandType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lowcostairline/command/Page.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lowcostairline/command/common/GetAircraftsCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lowcostairline/command/common/GetPilotsCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lowcostairline/command/common/HomePageCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lowcostairline/command/common/RegisterCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lowcostairline/command/factory/CommandFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lowcostairline/exception/ParserException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/lowcostairline/parsers/xml/DomParserTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/lowcostairline/parsers/xml/JaxBParserTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/lowcostairline/parsers/xml/SaxParserTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/lab1_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/lab1_war_exploded.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/lab1.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lowcost.xml" beforeDir="false" afterPath="$PROJECT_DIR$/lowcost.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lowcost.xsd" beforeDir="false" afterPath="$PROJECT_DIR$/lowcost.xsd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com.lowcostairline/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.lowcostairline/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com.lowcostairline/beans/lowCostAirlines/LowCostAirlines.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.lowcostairline/beans/lowCostAirlines/LowCostAirlines.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com.lowcostairline/controller/CommandName.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com.lowcostairline/controller/ConsoleCommand.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com.lowcostairline/controller/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.lowcostairline/controller/Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com.lowcostairline/controller/command/Command.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com.lowcostairline/controller/command/impl/AddNewAircraft.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com.lowcostairline/controller/command/impl/AddNewPilot.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com.lowcostairline/controller/command/impl/AddNewSteward.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com.lowcostairline/controller/command/impl/DismissPilot.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com.lowcostairline/controller/command/impl/DismissSteward.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com.lowcostairline/controller/command/impl/DisplayHelp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com.lowcostairline/controller/command/impl/EditAircrfatInfo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com.lowcostairline/controller/command/impl/EditPilotInfor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com.lowcostairline/controller/command/impl/EditStewardInfo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com.lowcostairline/controller/command/impl/RemoveAircraft.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com.lowcostairline/dao/impl/AircraftDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.lowcostairline/dao/impl/AircraftDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com.lowcostairline/dao/impl/PilotDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.lowcostairline/dao/impl/PilotDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com.lowcostairline/dao/impl/StewardDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com.lowcostairline/dao/impl/StewardDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com.lowcostairline/parsers/DOMParser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com.lowcostairline/parsers/StaxParser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com.lowcostairline/servlet/AircraftServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com.lowcostairline/servlet/PilotServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com.lowcostairline/servlet/SelectLiquorServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com.lowcostairline/servlet/StartupServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com.lowcostairline/servlet/StewardServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/jsp/aircrafts.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/jsp/aircrafts.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/jsp/pilots.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/jsp/pilots.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/jsp/stewards.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/jsp/stewards.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/result.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lowcostairline/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lowcostairline/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lowcostairline/beans/lowCostAirlines/LowCostAirlines.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lowcostairline/beans/lowCostAirlines/LowCostAirlines.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lowcostairline/controller/CommandName.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lowcostairline/controller/ConsoleCommand.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lowcostairline/controller/Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lowcostairline/controller/Controller.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lowcostairline/controller/command/Command.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lowcostairline/controller/command/impl/AddNewAircraft.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lowcostairline/controller/command/impl/AddNewPilot.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lowcostairline/controller/command/impl/AddNewSteward.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lowcostairline/controller/command/impl/DismissPilot.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lowcostairline/controller/command/impl/DismissSteward.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lowcostairline/controller/command/impl/DisplayHelp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lowcostairline/controller/command/impl/EditAircrfatInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lowcostairline/controller/command/impl/EditPilotInfor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lowcostairline/controller/command/impl/EditStewardInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lowcostairline/controller/command/impl/RemoveAircraft.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lowcostairline/dao/impl/AircraftDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lowcostairline/dao/impl/AircraftDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lowcostairline/dao/impl/PilotDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lowcostairline/dao/impl/PilotDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lowcostairline/dao/impl/StewardDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lowcostairline/dao/impl/StewardDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lowcostairline/parsers/DOMParser.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lowcostairline/parsers/SaxParser$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lowcostairline/parsers/SaxParser$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lowcostairline/parsers/SaxParser.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lowcostairline/parsers/SaxParser.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lowcostairline/parsers/StaxParser.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lowcostairline/servlet/AircraftServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lowcostairline/servlet/PilotServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lowcostairline/servlet/SelectLiquorServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lowcostairline/servlet/StewardServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/lab3-1.0-SNAPSHOT/WEB-INF/classes/com/lowcostairline/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/lab3-1.0-SNAPSHOT/WEB-INF/classes/com/lowcostairline/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/lab3-1.0-SNAPSHOT/WEB-INF/classes/com/lowcostairline/beans/lowCostAirlines/LowCostAirlines.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/lab3-1.0-SNAPSHOT/WEB-INF/classes/com/lowcostairline/beans/lowCostAirlines/LowCostAirlines.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/lab3-1.0-SNAPSHOT/WEB-INF/classes/com/lowcostairline/controller/CommandName.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/lab3-1.0-SNAPSHOT/WEB-INF/classes/com/lowcostairline/controller/ConsoleCommand.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/lab3-1.0-SNAPSHOT/WEB-INF/classes/com/lowcostairline/controller/Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/lab3-1.0-SNAPSHOT/WEB-INF/classes/com/lowcostairline/controller/Controller.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/lab3-1.0-SNAPSHOT/WEB-INF/classes/com/lowcostairline/controller/command/Command.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/lab3-1.0-SNAPSHOT/WEB-INF/classes/com/lowcostairline/controller/command/impl/AddNewAircraft.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/lab3-1.0-SNAPSHOT/WEB-INF/classes/com/lowcostairline/controller/command/impl/AddNewPilot.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/lab3-1.0-SNAPSHOT/WEB-INF/classes/com/lowcostairline/controller/command/impl/AddNewSteward.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/lab3-1.0-SNAPSHOT/WEB-INF/classes/com/lowcostairline/controller/command/impl/DismissPilot.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/lab3-1.0-SNAPSHOT/WEB-INF/classes/com/lowcostairline/controller/command/impl/DismissSteward.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/lab3-1.0-SNAPSHOT/WEB-INF/classes/com/lowcostairline/controller/command/impl/DisplayHelp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/lab3-1.0-SNAPSHOT/WEB-INF/classes/com/lowcostairline/controller/command/impl/EditAircrfatInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/lab3-1.0-SNAPSHOT/WEB-INF/classes/com/lowcostairline/controller/command/impl/EditPilotInfor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/lab3-1.0-SNAPSHOT/WEB-INF/classes/com/lowcostairline/controller/command/impl/EditStewardInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/lab3-1.0-SNAPSHOT/WEB-INF/classes/com/lowcostairline/controller/command/impl/RemoveAircraft.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/lab3-1.0-SNAPSHOT/WEB-INF/classes/com/lowcostairline/dao/impl/AircraftDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/lab3-1.0-SNAPSHOT/WEB-INF/classes/com/lowcostairline/dao/impl/AircraftDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/lab3-1.0-SNAPSHOT/WEB-INF/classes/com/lowcostairline/dao/impl/PilotDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/lab3-1.0-SNAPSHOT/WEB-INF/classes/com/lowcostairline/dao/impl/PilotDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/lab3-1.0-SNAPSHOT/WEB-INF/classes/com/lowcostairline/dao/impl/StewardDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/lab3-1.0-SNAPSHOT/WEB-INF/classes/com/lowcostairline/dao/impl/StewardDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/lab3-1.0-SNAPSHOT/WEB-INF/classes/com/lowcostairline/parsers/DOMParser.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/lab3-1.0-SNAPSHOT/WEB-INF/classes/com/lowcostairline/parsers/SaxParser$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/lab3-1.0-SNAPSHOT/WEB-INF/classes/com/lowcostairline/parsers/SaxParser$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/lab3-1.0-SNAPSHOT/WEB-INF/classes/com/lowcostairline/parsers/SaxParser.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/lab3-1.0-SNAPSHOT/WEB-INF/classes/com/lowcostairline/parsers/SaxParser.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/lab3-1.0-SNAPSHOT/WEB-INF/classes/com/lowcostairline/parsers/StaxParser.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/lab3-1.0-SNAPSHOT/WEB-INF/classes/com/lowcostairline/servlet/AircraftServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/lab3-1.0-SNAPSHOT/WEB-INF/classes/com/lowcostairline/servlet/PilotServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/lab3-1.0-SNAPSHOT/WEB-INF/classes/com/lowcostairline/servlet/SelectLiquorServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/lab3-1.0-SNAPSHOT/WEB-INF/classes/com/lowcostairline/servlet/StewardServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/lab3-1.0-SNAPSHOT/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/lab3-1.0-SNAPSHOT/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/lab3-1.0-SNAPSHOT/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/lab3-1.0-SNAPSHOT/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/lab3-1.0-SNAPSHOT/jsp/aircrafts.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/lab3-1.0-SNAPSHOT/jsp/aircrafts.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/lab3-1.0-SNAPSHOT/jsp/pilots.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/lab3-1.0-SNAPSHOT/jsp/pilots.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/lab3-1.0-SNAPSHOT/jsp/stewards.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/lab3-1.0-SNAPSHOT/jsp/stewards.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/lab3-1.0-SNAPSHOT/result.jsp" beforeDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,46 +142,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/stewards.jsp">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com.lowcostairline/parsers/xml/PlanHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="24" column="16" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="7" lean-forward="true" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/result.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="22" column="7" lean-forward="true" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="366">
-              <caret line="25" column="50" lean-forward="true" selection-start-line="25" selection-start-column="50" selection-end-line="25" selection-end-column="50" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com.lowcostairline/servlet/StartupServlet.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+            <state relative-caret-position="170">
+              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -69,22 +154,43 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com.lowcostairline/servlet/StewardServlet.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com.lowcostairline/parsers/xml/SaxParser.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="37">
-              <caret line="17" column="42" lean-forward="true" selection-start-line="17" selection-start-column="42" selection-end-line="17" selection-end-column="42" />
+            <state relative-caret-position="289">
+              <caret line="19" column="37" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com.lowcostairline/parsers/xml/DomParser.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="14" column="32" lean-forward="true" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/lowcostairline/parsers/xml/JaxBParserTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="78" selection-start-line="78" selection-end-line="81" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com.lowcostairline/parsers/SaxParser.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com.lowcostairline/parsers/xml/JaxBParser.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1683">
-              <caret line="111" column="27" lean-forward="true" selection-start-line="111" selection-start-column="27" selection-end-line="111" selection-end-column="27" />
+            <state relative-caret-position="238">
+              <caret line="21" column="27" lean-forward="true" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="27" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -93,28 +199,52 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/aircrafts.jsp">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/lowcostairline/parsers/xml/SaxParserTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+            <state relative-caret-position="-238">
+              <caret line="44" lean-forward="true" selection-start-line="44" selection-end-line="44" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com.lowcostairline/tags/AircraftTag.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/lowcostairline/command/common/HomePageCommand.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="9" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
+            <state relative-caret-position="170">
+              <caret line="13" column="1" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com.lowcostairline/servlet/PilotServlet.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/lowcostairline/command/common/GetPilotsCommand.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+            <state relative-caret-position="249">
+              <caret line="18" column="58" selection-start-line="18" selection-start-column="58" selection-end-line="18" selection-end-column="58" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/lowcostairline/command/common/RegisterCommand.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="25" column="41" selection-start-line="25" selection-start-column="41" selection-end-line="25" selection-end-column="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/lowcostairline/command/common/GetAircraftsCommand.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="23" column="88" selection-start-line="23" selection-start-column="88" selection-end-line="23" selection-end-column="88" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -124,73 +254,76 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JUnit4 Test Class" />
         <option value="Interface" />
         <option value="HTML File" />
         <option value="Enum" />
         <option value="jsf" />
         <option value="Jsp File" />
+        <option value="JUnit4 Test Class" />
         <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/src/com/company/LowCostAirlines" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/main/webapp/jsp/stewards.jsp" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com.lowcostairline/service/impl/AircraftServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com.lowcostairline/service/factory/ServiceFactory.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com.lowcostairline/controller/command/impl/EditAircrfatInfo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com.lowcostairline/beans/aircraft/Aircraft.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com.lowcostairline/controller/command/impl/RemoveAircraft.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com.lowcostairline/controller/command/impl/AddNewAircraft.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com.lowcostairline/beans/airline/lowCostAirline/Tripp.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com.lowcostairline/beans/airline/lowCostAirline/LowCostAirlineTripp.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com.lowcostairline/beans/airline/lowCostAirline/LowCostAirline.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com.lowcostairline/connection/ConnectionConnector.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/database.properties" />
-        <option value="$PROJECT_DIR$/src/main/java/com.lowcostairline/service/XmlParser.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com.lowcostairline/dao/impl/AircraftDao.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com.lowcostairline/dao/impl/PilotDao.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com.lowcostairline/dao/impl/StewardDao.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com.lowcostairline/beans/lowCostAirlines/LowCostAirlines.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com.lowcostairline/validator/XSDValidator.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/log4j.properties" />
-        <option value="$PROJECT_DIR$/src/test/java/com/lowcostairline/MainTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com.lowcostairline/connection/ConnectionCreator.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com.lowcostairline/dao/factory/DaoFactory.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com.lowcostairline/beans/Entity.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com.lowcostairline/tags/LiquorType.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com.lowcostairline/service/LiquorService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com.lowcostairline/servlet/SelectLiquorSevlet.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com.lowcostairline/servlet/SelectLiquorServlet.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/result.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/com.lowcostairline/servlet/AircraftServlet.java" />
         <option value="$PROJECT_DIR$/src/main/java/com.lowcostairline/writer/XmlWriter.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com.lowcostairline/controller/Controller.java" />
         <option value="$PROJECT_DIR$/src/main/java/com.lowcostairline/beans/aircraft/Aircrafts.java" />
         <option value="$PROJECT_DIR$/aircraft.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com.lowcostairline/tags/EntityTag.java" />
         <option value="$PROJECT_DIR$/src/main/java/com.lowcostairline/beans/airline/lowCostAirline/LowCostAirlineTrip.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com.lowcostairline/Main.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/lowcost.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com.lowcostairline/tags/LowCostAirlineBlueSkyTag.java" />
         <option value="$PROJECT_DIR$/src/main/java/com.lowcostairline/tags/PilotTag.java" />
         <option value="$PROJECT_DIR$/src/main/java/com.lowcostairline/tags/StewardTag.java" />
         <option value="$PROJECT_DIR$/src/main/java/com.lowcostairline/tags/AircraftTag.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/jsp/pilots.xhtml" />
-        <option value="$PROJECT_DIR$/src/main/webapp/jsp/aircrafts.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/jsp/pilots.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com.lowcostairline/servlet/StewardServlet.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/jsp/stewards.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/index.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com.lowcostairline/servlet/PilotServlet.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/index.html" />
         <option value="$PROJECT_DIR$/src/main/java/com.lowcostairline/servlet/StartupServlet.java" />
         <option value="$PROJECT_DIR$/src/main/java/com.lowcostairline/parsers/SaxParser.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com.lowcostairline/parsers/xml/XmlParser.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lowcostairline/exception/ParserException.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com.lowcostairline/parsers/xml/DomParser.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com.lowcostairline/dao/impl/AircraftDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com.lowcostairline/dao/impl/PilotDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com.lowcostairline/dao/impl/StewardDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com.lowcostairline/beans/lowCostAirlines/LowCostAirlines.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com.lowcostairline/Main.java" />
+        <option value="$PROJECT_DIR$/lowcost.xsd" />
+        <option value="$PROJECT_DIR$/src/main/java/com.lowcostairline/parsers/xml/SaxParser.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com.lowcostairline/parsers/xml/PlanHandler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lowcostairline/builder/PlanBuilder.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com.lowcostairline/parsers/xml/JaxBParser.java" />
+        <option value="$PROJECT_DIR$/lowcost.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/com/lowcostairline/parsers/xml/SaxParserTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/lowcostairline/parsers/xml/DomParserTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/lowcostairline/parsers/xml/JaxBParserTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com.lowcostairline/controller/FrontControllrt.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lowcostairline/command/taxi/AcceptCommand.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lowcostairline/command/common/HomePageCommand.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lowcostairline/command/factory/CommandFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com.lowcostairline/controller/Controller.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lowcostairline/command/Command.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com.lowcostairline/controller/CommandName.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lowcostairline/command/Page.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/jsp/stewards.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com.lowcostairline/controller/FrontController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/index.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lowcostairline/command/CommandType.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/jsp/pilots.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/jsp/aircrafts.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lowcostairline/command/common/RegisterCommand.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lowcostairline/command/common/GetAircraftsCommand.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lowcostairline/command/common/GetPilotsCommand.java" />
       </list>
     </option>
   </component>
@@ -210,17 +343,12 @@
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="lab1" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="lab3" type="9519ce18:MavenProjectsStructure$ProjectNode" />
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="lab1" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="lab3" type="9519ce18:MavenProjectsStructure$ProjectNode" />
           <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="lab1" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
         </path>
       </expand>
       <select />
@@ -238,6 +366,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -269,7 +398,45 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com.lowcostairline" type="462c0819:PsiDirectoryNode" />
+              <item name="lowcostairline" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lab3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lab3" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="lowcostairline" type="462c0819:PsiDirectoryNode" />
+              <item name="builder" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lab3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lab3" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="lowcostairline" type="462c0819:PsiDirectoryNode" />
+              <item name="command" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lab3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lab3" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="lowcostairline" type="462c0819:PsiDirectoryNode" />
+              <item name="command" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lab3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lab3" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="lowcostairline" type="462c0819:PsiDirectoryNode" />
+              <item name="command" type="462c0819:PsiDirectoryNode" />
+              <item name="factory" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="lab3" type="b2602c69:ProjectViewProjectNode" />
@@ -278,47 +445,6 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com.lowcostairline" type="462c0819:PsiDirectoryNode" />
-              <item name="beans" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lab3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lab3" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com.lowcostairline" type="462c0819:PsiDirectoryNode" />
-              <item name="beans" type="462c0819:PsiDirectoryNode" />
-              <item name="aircraft" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lab3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lab3" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com.lowcostairline" type="462c0819:PsiDirectoryNode" />
-              <item name="beans" type="462c0819:PsiDirectoryNode" />
-              <item name="lowCostAirline" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lab3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lab3" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com.lowcostairline" type="462c0819:PsiDirectoryNode" />
-              <item name="beans" type="462c0819:PsiDirectoryNode" />
-              <item name="crew" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="lab3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lab3" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com.lowcostairline" type="462c0819:PsiDirectoryNode" />
-              <item name="beans" type="462c0819:PsiDirectoryNode" />
-              <item name="lowCostAirlines" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="lab3" type="b2602c69:ProjectViewProjectNode" />
@@ -345,7 +471,8 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com.lowcostairline" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="parsers" type="462c0819:PsiDirectoryNode" />
+              <item name="xml" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="lab3" type="b2602c69:ProjectViewProjectNode" />
@@ -354,7 +481,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com.lowcostairline" type="462c0819:PsiDirectoryNode" />
-              <item name="servlet" type="462c0819:PsiDirectoryNode" />
+              <item name="singleton" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="lab3" type="b2602c69:ProjectViewProjectNode" />
@@ -393,16 +520,37 @@
               <item name="lab3" type="b2602c69:ProjectViewProjectNode" />
               <item name="lab3" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lab3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lab3" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lab3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lab3" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="lowcostairline" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lab3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lab3" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="lowcostairline" type="462c0819:PsiDirectoryNode" />
+              <item name="xml" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -413,10 +561,10 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1576418371370" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1576441241472" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../tariffs" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -424,13 +572,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.lowcostairline.parsers.xml" />
       <recent name="com.lowcostairline" />
-    </key>
-    <key name="CreateTestDialog.Recents.Supers">
-      <recent name="" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.lowcostairline.beans.crew" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\marta\Downloads\Messenger Backend\lab1\src\main\java\com.lowcostairline\beans\aircraftCrew\steward" />
@@ -438,6 +581,20 @@
       <recent name="C:\Users\marta\Downloads\Messenger Backend\lab1\src\main" />
       <recent name="C:\Users\marta\Downloads\Messenger Backend\lab1\src\main\java" />
       <recent name="C:\Users\marta\Downloads\Messenger Backend\lab1\src\main.java" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.lowcostairline.exception" />
+      <recent name="com.lowcostairline.builder" />
+      <recent name="com.lowcostairline.beans.crew" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\marta\Downloads\Marta_Java\lab3\lab3\src\main\java\com\lowcostairline\command\common" />
+      <recent name="C:\Users\marta\Downloads\Marta_Java\lab3\lab3\src\main\java\com\lowcostairline\command" />
+      <recent name="C:\Users\marta\Downloads\Marta_Java\lab3\lab3\src\main\java\com\lowcostairline" />
+      <recent name="C:\Users\marta\Downloads\Marta_Java\lab3\lab3\src\main\java\com.lowcostairline\parsers\xml" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -462,6 +619,54 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DomParserTest.parse" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="lab1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lowcostairline.parsers.xml.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.lowcostairline.parsers.xml" />
+      <option name="MAIN_CLASS_NAME" value="com.lowcostairline.parsers.xml.DomParserTest" />
+      <option name="METHOD_NAME" value="parse" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JaxBParserTest.parse" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="lab1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lowcostairline.parsers.xml.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.lowcostairline.parsers.xml" />
+      <option name="MAIN_CLASS_NAME" value="com.lowcostairline.parsers.xml.JaxBParserTest" />
+      <option name="METHOD_NAME" value="parse" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SaxParserTest.parse" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="lab1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lowcostairline.parsers.xml.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.lowcostairline.parsers.xml" />
+      <option name="MAIN_CLASS_NAME" value="com.lowcostairline.parsers.xml.SaxParserTest" />
+      <option name="METHOD_NAME" value="parse" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -541,10 +746,16 @@
     </configuration>
     <list>
       <item itemvalue="Application.Main (2)" />
+      <item itemvalue="JUnit.DomParserTest.parse" />
+      <item itemvalue="JUnit.SaxParserTest.parse" />
+      <item itemvalue="JUnit.JaxBParserTest.parse" />
       <item itemvalue="Tomcat Server.Tomcat 7.0.96" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.JaxBParserTest.parse" />
+        <item itemvalue="JUnit.DomParserTest.parse" />
+        <item itemvalue="JUnit.SaxParserTest.parse" />
         <item itemvalue="Application.Main (2)" />
       </list>
     </recent_temporary>
@@ -591,17 +802,50 @@
       <workItem from="1576238505813" duration="2667000" />
       <workItem from="1576343185023" duration="350000" />
       <workItem from="1576343794016" duration="18924000" />
+      <workItem from="1576419061209" duration="9999000" />
+      <workItem from="1576429085779" duration="7137000" />
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="JaxBParserTest_parse - 2019.12.15 at 19h 55m 16s.xml">
+      <configuration name="JaxBParserTest.parse" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="JaxBParserTest_parse - 2019.12.15 at 19h 57m 21s.xml">
+      <configuration name="JaxBParserTest.parse" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="JaxBParserTest_parse - 2019.12.15 at 19h 57m 45s.xml">
+      <configuration name="JaxBParserTest.parse" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="JaxBParserTest_parse - 2019.12.15 at 19h 58m 15s.xml">
+      <configuration name="JaxBParserTest.parse" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="JaxBParserTest_parse - 2019.12.15 at 19h 58m 50s.xml">
+      <configuration name="JaxBParserTest.parse" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="JaxBParserTest_parse - 2019.12.15 at 19h 59m 33s.xml">
+      <configuration name="JaxBParserTest.parse" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="JaxBParserTest_parse - 2019.12.15 at 20h 00m 38s.xml">
+      <configuration name="JaxBParserTest.parse" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="JaxBParserTest_parse - 2019.12.15 at 20h 01m 08s.xml">
+      <configuration name="JaxBParserTest.parse" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="JaxBParserTest_parse - 2019.12.15 at 20h 02m 22s.xml">
+      <configuration name="JaxBParserTest.parse" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="JaxBParserTest_parse - 2019.12.15 at 20h 02m 59s.xml">
+      <configuration name="JaxBParserTest.parse" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="171988000" />
+    <option name="totallyTimeSpent" value="189124000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2295302" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23624161" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -609,11 +853,44 @@
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info id="Web" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Application Servers" weight="0.16147308" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.194051" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.45609066" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.3286119" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.3286119" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.29745042" />
+      <window_info anchor="bottom" id="Java Enterprise" order="13" weight="0.3286119" />
+      <window_info anchor="bottom" id="Application Servers" order="14" weight="0.16147308" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.24966443" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Theme Preview" order="4" />
+      <window_info anchor="right" id="Maven" order="5" weight="0.3295302" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Database" order="8" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23288591" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.26912183" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39943343" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.7507082" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -624,40 +901,7 @@
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.29745042" />
       <window_info anchor="bottom" id="Java Enterprise" order="13" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Theme Preview" order="4" />
-      <window_info anchor="right" id="Maven" order="5" weight="0.3295302" />
-      <window_info anchor="right" id="Capture Analysis" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Database" order="8" />
-    </layout>
-    <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2295302" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Designer" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Capture Tool" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info id="Web" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Application Servers" order="0" weight="0.16147308" />
-      <window_info anchor="bottom" id="Message" order="1" />
-      <window_info anchor="bottom" id="Find" order="2" weight="0.3286119" />
-      <window_info anchor="bottom" id="Run" order="3" visible="true" weight="0.26912183" />
-      <window_info anchor="bottom" id="Debug" order="4" weight="0.39943343" />
-      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="7" />
-      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="9" weight="0.3286119" />
-      <window_info anchor="bottom" id="Database Changes" order="10" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.3286119" />
-      <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="13" weight="0.29745042" />
-      <window_info anchor="bottom" id="Java Enterprise" order="14" />
+      <window_info anchor="bottom" id="Application Servers" order="14" weight="0.16147308" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -686,221 +930,88 @@
           <properties />
           <option name="timeStamp" value="2" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/lowcostairline/builder/PlanBuilder.java</url>
+          <line>32</line>
+          <properties />
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com.lowcostairline/parsers/xml/PlanHandler.java</url>
+          <line>57</line>
+          <properties />
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="JUnit">
+        <watch expression="doc" />
+        <watch expression="((DeferredElementImpl)root).attributes" custom="com.sun.org.apache.xerces.internal.dom.DeferredElementImpl" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com.lowcostairline/service/AirLineService.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_192/src.zip!/java/io/FileNotFoundException.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/dependencies/log4j-to-slf4j-2.12.1-sources.jar!/org/apache/logging/slf4j/SLF4JLoggerContext.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/lowcostairline/MainTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="57" selection-start-line="7" selection-start-column="57" selection-end-line="7" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/logs/log.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com.lowcostairline/validator/XSDValidator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/database.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="21" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com.lowcostairline/connection/ConnectionCreator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="816">
-          <caret line="51" selection-start-line="51" selection-end-line="51" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com.lowcostairline/dao/impl/StewardDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="393">
-          <caret line="32" column="32" selection-start-line="32" selection-start-column="32" selection-end-line="32" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="157">
+          <caret line="42" column="13" selection-start-line="42" selection-start-column="13" selection-end-line="42" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com.lowcostairline/dao/impl/AircraftDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="22" column="57" selection-start-line="22" selection-start-column="57" selection-end-line="22" selection-end-column="57" />
+        <state relative-caret-position="149">
+          <caret line="35" column="34" selection-start-line="35" selection-start-column="34" selection-end-line="35" selection-end-column="34" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com.lowcostairline/service/XmlParser.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com.lowcostairline/dao/impl/PilotDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="21" column="71" selection-start-line="21" selection-start-column="71" selection-end-line="21" selection-end-column="71" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="149">
+          <caret line="35" column="31" selection-start-line="35" selection-start-column="31" selection-end-line="35" selection-end-column="31" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com.lowcostairline/writer/exception/XmlOutInException.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com.lowcostairline/dao/impl/StewardDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        <state relative-caret-position="217">
+          <caret line="39" column="53" lean-forward="true" selection-start-line="39" selection-start-column="53" selection-end-line="39" selection-end-column="53" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com.lowcostairline/dao/factory/DaoFactory.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com.lowcostairline/beans/lowCostAirlines/LowCostAirlines.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="10" column="55" selection-start-line="10" selection-start-column="55" selection-end-line="10" selection-end-column="55" />
+        <state relative-caret-position="1207">
+          <caret line="71" column="48" lean-forward="true" selection-start-line="71" selection-start-column="48" selection-end-line="71" selection-end-column="48" />
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com.lowcostairline/service/LiquorService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="15" selection-start-line="23" selection-start-column="15" selection-end-line="23" selection-end-column="15" />
-          <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#2504#2505#0" expanded="true" />
+            <element signature="e#2549#2550#0" expanded="true" />
+            <element signature="e#2890#2891#0" expanded="true" />
+            <element signature="e#2949#2950#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lowcost.xsd">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="61">
-          <caret line="54" column="42" lean-forward="true" selection-start-line="54" selection-start-column="42" selection-end-line="54" selection-end-column="42" />
+        <state relative-caret-position="17">
+          <caret line="1" column="134" lean-forward="true" selection-start-line="1" selection-start-column="134" selection-end-line="1" selection-end-column="134" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lab1.iml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com.lowcostairline/beans/airline/lowCostAirline/LowCostAirlineTrip.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-296" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com.lowcostairline/beans/Entity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="20" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com.lowcostairline/servlet/SelectLiquorServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="349">
-          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com.lowcostairline/servlet/AircraftServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com.lowcostairline/parsers/DOMParser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com.lowcostairline/beans/aircraft/Aircrafts.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="32" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="32" />
-          <folding>
-            <element signature="e#615#616#0" expanded="true" />
-            <element signature="e#647#648#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_192/src.zip!/javax/xml/parsers/SAXParser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="327" selection-start-line="327" selection-end-line="327" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com.lowcostairline/beans/aircraft/Aircraft.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="38" column="7" lean-forward="true" selection-start-line="38" selection-start-column="7" selection-end-line="38" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/aircraft.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="18" lean-forward="true" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com.lowcostairline/parsers/StaxParser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com.lowcostairline/controller/Controller.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="433">
-          <caret line="35" column="46" selection-start-line="35" selection-start-column="46" selection-end-line="35" selection-end-column="46" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com.lowcostairline/writer/XmlWriter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        <state relative-caret-position="179">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -909,159 +1020,85 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com.lowcostairline/Main.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="139">
+          <caret line="11" column="10" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_192/src.zip!/javax/xml/parsers/DocumentBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="61" column="22" selection-start-line="61" selection-start-column="22" selection-end-line="61" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/junit-4.12.jar!/org/junit/runners/ParentRunner.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="202" selection-start-line="202" selection-end-line="202" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/junit-4.12.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lowcostairline/builder/PlanBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7">
+          <caret line="34" selection-start-line="34" selection-end-line="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#672#673#0" expanded="true" />
+            <element signature="e#714#715#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com.lowcostairline/parsers/SaxParser.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
-          <caret line="15" column="52" selection-start-line="15" selection-start-column="52" selection-end-line="15" selection-end-column="52" />
+          <caret line="93" column="70" selection-start-line="93" selection-start-column="55" selection-end-line="93" selection-end-column="70" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_192/src.zip!/java/io/FileReader.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="58" column="26" selection-start-line="58" selection-start-column="26" selection-end-line="58" selection-end-column="26" />
+        <state relative-caret-position="163">
+          <caret line="44" column="13" selection-start-line="44" selection-start-column="13" selection-end-line="44" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lowcost.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="663">
-          <caret line="39" column="18" selection-start-line="39" selection-start-column="18" selection-end-line="39" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com.lowcostairline/beans/airline/lowCostAirline/LowCostAirlineTrip.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="27" column="33" selection-start-line="27" selection-start-column="33" selection-end-line="27" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com.lowcostairline/tags/EntityTag.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com.lowcostairline/beans/Entity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
-          <caret line="8" column="33" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com.lowcostairline/tags/LiquorType.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="20" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com.lowcostairline/tags/LowCostAirlineBlueSkyTag.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com.lowcostairline/tags/PilotTag.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="9" lean-forward="true" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/pilots.xhtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/pilots.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com.lowcostairline/tags/StewardTag.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" selection-start-line="4" selection-end-line="8" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com.lowcostairline/beans/lowCostAirlines/LowCostAirlines.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com.lowcostairline/beans/crew/AircraftCrew.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="38" selection-start-line="38" selection-end-line="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#874#875#0" expanded="true" />
-            <element signature="e#901#902#0" expanded="true" />
-            <element signature="e#941#942#0" expanded="true" />
-            <element signature="e#973#974#0" expanded="true" />
-            <element signature="e#1008#1009#0" expanded="true" />
-            <element signature="e#1039#1040#0" expanded="true" />
-            <element signature="e#1087#1088#0" expanded="true" />
-            <element signature="e#1127#1128#0" expanded="true" />
-            <element signature="e#1165#1166#0" expanded="true" />
-            <element signature="e#1202#1203#0" expanded="true" />
-            <element signature="e#1259#1260#0" expanded="true" />
-            <element signature="e#1311#1312#0" expanded="true" />
-            <element signature="e#1352#1353#0" expanded="true" />
-            <element signature="e#1389#1390#0" expanded="true" />
-            <element signature="e#1449#1450#0" expanded="true" />
-            <element signature="e#1501#1502#0" expanded="true" />
-            <element signature="e#1534#1535#0" expanded="true" />
-            <element signature="e#1563#1564#0" expanded="true" />
-            <element signature="e#1607#1608#0" expanded="true" />
-            <element signature="e#1643#1644#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/stewards.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="24" column="16" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com.lowcostairline/singleton/IdGenerator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
-          <caret line="17" column="17" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
+          <caret line="19" column="1" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com.lowcostairline/servlet/PilotServlet.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/lowcostairline/parsers/xml/DomParserTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="366">
-          <caret line="25" column="50" lean-forward="true" selection-start-line="25" selection-start-column="50" selection-end-line="25" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com.lowcostairline/servlet/StartupServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        <state relative-caret-position="335">
+          <caret line="70" column="57" selection-start-line="70" selection-start-column="57" selection-end-line="70" selection-end-column="57" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1070,46 +1107,268 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com.lowcostairline/servlet/StewardServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="37">
-          <caret line="17" column="42" lean-forward="true" selection-start-line="17" selection-start-column="42" selection-end-line="17" selection-end-column="42" />
+        <state relative-caret-position="153">
+          <caret line="17" column="42" selection-start-line="17" selection-start-column="42" selection-end-line="17" selection-end-column="42" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com.lowcostairline/servlet/StartupServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com.lowcostairline/servlet/AircraftServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com.lowcostairline/servlet/SelectLiquorServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com.lowcostairline/controller/command/Command.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com.lowcostairline/controller/command/impl/AddNewAircraft.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="31" column="13" lean-forward="true" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lowcostairline/command/taxi/AcceptCommand.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com.lowcostairline/controller/Controller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="32" selection-start-line="32" selection-end-line="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com.lowcostairline/controller/CommandName.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="14" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com.lowcostairline/controller/ConsoleCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="43" selection-start-line="5" selection-start-column="43" selection-end-line="5" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="714">
+          <caret line="45" column="37" selection-start-line="45" selection-start-column="37" selection-end-line="45" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="27" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/result.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
-          <caret line="22" column="7" lean-forward="true" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="7" />
+          <caret line="22" column="7" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com.lowcostairline/controller/FrontController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="638">
+          <caret line="50" column="25" lean-forward="true" selection-start-line="50" selection-start-column="25" selection-end-line="50" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lowcostairline/command/Page.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="57" selection-start-line="8" selection-start-column="57" selection-end-line="8" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lowcostairline/command/factory/CommandFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="19" column="58" selection-start-line="19" selection-start-column="58" selection-end-line="19" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lowcost.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" selection-start-line="19" selection-end-line="21" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lowcostairline/command/Command.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lowcostairline/command/CommandType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="236">
+          <caret line="19" column="23" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="7" lean-forward="true" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
+        <state relative-caret-position="187">
+          <caret line="11" column="7" lean-forward="true" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/stewards.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="15" column="36" lean-forward="true" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/pilots.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/jsp/aircrafts.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        <state relative-caret-position="164">
+          <caret line="10" column="11" lean-forward="true" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com.lowcostairline/tags/AircraftTag.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com.lowcostairline/parsers/xml/XmlParser.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="9" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
+        <state relative-caret-position="68">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com.lowcostairline/parsers/SaxParser.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com.lowcostairline/parsers/xml/SaxParser.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1683">
-          <caret line="111" column="27" lean-forward="true" selection-start-line="111" selection-start-column="27" selection-end-line="111" selection-end-column="27" />
+        <state relative-caret-position="289">
+          <caret line="19" column="37" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com.lowcostairline/parsers/xml/PlanHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com.lowcostairline/parsers/xml/DomParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="32" lean-forward="true" selection-start-line="14" selection-start-column="32" selection-end-line="14" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/lowcostairline/parsers/xml/SaxParserTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-238">
+          <caret line="44" lean-forward="true" selection-start-line="44" selection-end-line="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/lowcostairline/parsers/xml/JaxBParserTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="78" selection-start-line="78" selection-end-line="81" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lowcostairline/command/common/GetAircraftsCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="23" column="88" selection-start-line="23" selection-start-column="88" selection-end-line="23" selection-end-column="88" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lowcostairline/command/common/GetPilotsCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="249">
+          <caret line="18" column="58" selection-start-line="18" selection-start-column="58" selection-end-line="18" selection-end-column="58" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lowcostairline/command/common/HomePageCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="13" column="1" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lowcostairline/command/common/RegisterCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="25" column="41" selection-start-line="25" selection-start-column="41" selection-end-line="25" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com.lowcostairline/parsers/xml/JaxBParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="21" column="27" lean-forward="true" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

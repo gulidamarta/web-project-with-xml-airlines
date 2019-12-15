@@ -16,6 +16,7 @@
         <element id="directory" name="lib">
           <element id="library" level="project" name="Maven: org.apache.logging.log4j:log4j-core:2.11.2" />
           <element id="library" level="project" name="Maven: org.apache.logging.log4j:log4j-api:2.11.2" />
+          <element id="library" level="project" name="Maven: javax.servlet:jstl:1.2" />
           <element id="library" level="project" name="Maven: log4j:log4j:1.2.12" />
           <element id="library" level="project" name="Maven: com.fasterxml:jackson-xml-databind:0.6.2" />
           <element id="library" level="project" name="Maven: org.codehaus.jackson:jackson-mapper-asl:1.9.2" />

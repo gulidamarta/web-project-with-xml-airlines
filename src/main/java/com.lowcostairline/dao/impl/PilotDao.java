@@ -20,7 +20,7 @@ public class PilotDao implements Dao<AircraftCrew> {
         Connection connection = ConnectionCreator.create();
         XmlParser xmlParser = new XmlParser();
         LowCostAirlines lowCostAirlines = xmlParser.loadModel();
-        AircraftCrew pilot = lowCostAirlines.getLowCostAirlineTripAmerican().getPilot();
+        AircraftCrew pilot = lowCostAirlines.getLowCostAirlineTrips().get(0).getPilot();
         pilots.add(pilot);
         List<String> data= Arrays.asList(pilot.getName(),pilot.getLastName(),
                 String.valueOf(pilot.getWorkExperience()),pilot.getJobDescription(),
@@ -33,7 +33,7 @@ public class PilotDao implements Dao<AircraftCrew> {
             e.printStackTrace();
         }
 
-        pilot = lowCostAirlines.getLowCostAirlineTripBlueSky().getPilot();
+        pilot = lowCostAirlines.getLowCostAirlineTrips().get(1).getPilot();
         pilots.add(pilot);
         data = Arrays.asList(pilot.getName(), pilot.getLastName(),
                 String.valueOf(pilot.getWorkExperience()), pilot.getJobDescription(),

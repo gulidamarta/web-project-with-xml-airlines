@@ -11,6 +11,17 @@
     <title>Main Page</title>
 </head>
 <body>
-    <a href="stewards?recordsPerPage=2&currentPage=1">stewards</a>
+<form action="${pageContext.request.contextPath}/controller" method="post">
+    <input type="hidden" name="command" value="common_register"/>
+    <input type="submit" value="stewards">
+</form>
+<form action="${pageContext.request.contextPath}/controller" method="post">
+    <input type="hidden" name="command" value="get_pilots"/>
+    <input type="submit" value="pilots">
+</form>
+<form action="${pageContext.request.contextPath}/controller" method="post">
+    <input type="hidden" name="command" value="get_aircrafts"/>
+    <input type="submit" value="aircrafts">
+</form>
 </body>
 </html>

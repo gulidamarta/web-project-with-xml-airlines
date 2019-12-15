@@ -5,14 +5,17 @@ import com.lowcostairline.beans.aircraft.Aircraft;
 import com.lowcostairline.beans.airline.lowCostAirline.LowCostAirlineTrip;
 import com.lowcostairline.beans.crew.AircraftCrew;
 
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Objects;
 
 public class LowCostAirlines{
 
-    private LowCostAirlineTrip lowCostAirlineTripBlueSky;
-    private LowCostAirlineTrip lowCostAirlineTripAmerican;
+    private List<LowCostAirlineTrip> lowCostAirlineTrips = new ArrayList<>();
 
     public LowCostAirlines(){
+        LowCostAirlineTrip lowCostAirlineTripBlueSky;
+        LowCostAirlineTrip lowCostAirlineTripAmerican;
         AircraftCrew pilot = new AircraftCrew();
         pilot.setName("Mark");
         pilot.setLastName("Lutz");
@@ -61,71 +64,27 @@ public class LowCostAirlines{
         lowCostAirlineTripAmerican.setAircraft(aircraft);
         lowCostAirlineTripAmerican.setSteward(steward);
         lowCostAirlineTripAmerican.setCategory("Middle");
+
+        lowCostAirlineTrips.add(lowCostAirlineTripAmerican);
+        lowCostAirlineTrips.add(lowCostAirlineTripBlueSky);
     }
 
-    public LowCostAirlineTrip getLowCostAirlineTripAmerican() {
-        return lowCostAirlineTripAmerican;
-    }
-
-    public LowCostAirlineTrip getLowCostAirlineTripBlueSky(){
-        return lowCostAirlineTripBlueSky;
+    public List<LowCostAirlineTrip> getLowCostAirlineTrips(){
+        return lowCostAirlineTrips;
     }
 
     @Override
-    public int hashCode(){
-        return Objects.hash(lowCostAirlineTripAmerican, lowCostAirlineTripBlueSky);
-    }
-
-
-    @Override
-    public boolean equals(Object o){
-
-        if (this == o) {
-            return true;
-        }
-        if (o == null
-                || getClass()
-                != o.getClass()) {
-            return false;
-        }
-
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
         LowCostAirlines that = (LowCostAirlines) o;
-
-        if (lowCostAirlineTripAmerican.getAircraft() != that.lowCostAirlineTripAmerican.getAircraft()) {
-            return false;
-        }
-
-        if (lowCostAirlineTripBlueSky.getAircraft() != that.lowCostAirlineTripBlueSky.getAircraft()){
-            return false;
-        }
-
-        if (lowCostAirlineTripBlueSky.getSteward() != that.lowCostAirlineTripBlueSky.getSteward()){
-            return false;
-        }
-
-        if (lowCostAirlineTripAmerican.getSteward() != that.lowCostAirlineTripAmerican.getSteward()) {
-            return false;
-        }
-
-        if (lowCostAirlineTripBlueSky.getPilot() != that.lowCostAirlineTripBlueSky.getPilot()){
-            return false;
-        }
-
-        if (lowCostAirlineTripAmerican.getPilot() != that.lowCostAirlineTripAmerican.getPilot()){
-            return false;
-        }
-
-        if (!lowCostAirlineTripAmerican.getCategory().equals(that.lowCostAirlineTripAmerican.getCategory()))
-        {
-            return false;
-        }
-
-        return !lowCostAirlineTripBlueSky.getCategory().equals(that.lowCostAirlineTripBlueSky.getCategory());
+        return Objects.equals(lowCostAirlineTrips, that.lowCostAirlineTrips);
     }
 
     @Override
-    public String toString() {
-        return "LowCostAirlines{" +
-                "///}";
+    public int hashCode() {
+        return Objects.hash(lowCostAirlineTrips);
     }
+
+
 }

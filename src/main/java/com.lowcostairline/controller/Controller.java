@@ -2,9 +2,6 @@ package com.lowcostairline.controller;
 
 import com.lowcostairline.beans.aircraft.Aircrafts;
 import com.lowcostairline.beans.lowCostAirlines.LowCostAirlines;
-import com.lowcostairline.controller.command.Command;
-import com.lowcostairline.controller.command.impl.DisplayHelp;
-import com.lowcostairline.reader.Reader;
 import com.lowcostairline.writer.XmlWriter;
 import com.lowcostairline.writer.exception.XmlOutInException;
 
@@ -33,23 +30,5 @@ public class Controller {
     }
 
     public void execute(){
-        Command displayHelp = new DisplayHelp();
-        displayHelp.execute();
-
-        int result = Reader.nextInt();
-
-        try {
-            while (result != 0) {
-                CommandName ct = ConsoleCommand.getCommandTypeByNumber(result);
-                ct.getCommand().execute();
-                result = Reader.nextInt();
-            }
-            ConsoleCommand
-                    .getCommandTypeByNumber(result)
-                    .getCommand()
-                    .execute();
-        } catch (Exception e) {
-            System.out.println(e.getMessage());
-        }
     }
 }

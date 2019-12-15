@@ -1,6 +1,5 @@
 package com.lowcostairline;
 
-import com.lowcostairline.controller.Controller;
 import org.xml.sax.SAXException;
 
 import javax.xml.parsers.ParserConfigurationException;
@@ -10,8 +9,8 @@ public class Main {
 
 
     public static void main(String[] args) throws ParserConfigurationException, SAXException, IOException {
-        Controller controller = new Controller();
-        controller.writeToFile();
+        //Controller controller = new Controller();
+       // controller.writeToFile();
         /*
         SAXParserFactory factory = SAXParserFactory.newInstance();
         SAXParser parser = factory.newSAXParser();

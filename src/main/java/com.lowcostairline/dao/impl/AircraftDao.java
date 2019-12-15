@@ -21,7 +21,7 @@ public class AircraftDao implements Dao<Aircraft> {
         Connection connection = ConnectionCreator.create();
         XmlParser xmlParser = new XmlParser();
         LowCostAirlines lowCostAirlines = xmlParser.loadModel();
-        Aircraft aircraft = lowCostAirlines.getLowCostAirlineTripAmerican().getAircraft();
+        Aircraft aircraft = lowCostAirlines.getLowCostAirlineTrips().get(0).getAircraft();
         aircrafts.add(aircraft);
         List<String> data= Arrays.asList(aircraft.getModel(), String.valueOf(aircraft.getSeatAmount()),
                 String.valueOf(aircraft.getTankCapacity()));
@@ -33,7 +33,7 @@ public class AircraftDao implements Dao<Aircraft> {
             e.printStackTrace();
         }
 
-        aircraft = lowCostAirlines.getLowCostAirlineTripBlueSky().getAircraft();
+        aircraft = lowCostAirlines.getLowCostAirlineTrips().get(1).getAircraft();
         aircrafts.add(aircraft);
         data = Arrays.asList(aircraft.getModel(), String.valueOf(aircraft.getSeatAmount()),
                 String.valueOf(aircraft.getTankCapacity()));
