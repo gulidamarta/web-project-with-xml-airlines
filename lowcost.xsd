@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="LowCostAirlines" type="LowCostAirlinesType"/>
+  <xs:complexType name="pilotType">
+    <xs:sequence>
+      <xs:element name="name">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="Jack"/>
+            <xs:enumeration value="Mark"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+      <xs:element type="xs:string" name="workExperience"/>
+      <xs:element type="xs:string" name="jobDescription"/>
+      <xs:element name="lastName">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="Lop"/>
+            <xs:enumeration value="Lutz"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+      <xs:element type="xs:string" name="salary"/>
+      <xs:element name="id">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="4"/>
+            <xs:enumeration value="1"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="aircraftType">
+    <xs:sequence>
+      <xs:element type="xs:string" name="model"/>
+      <xs:element type="xs:string" name="tankCapacity"/>
+      <xs:element type="xs:string" name="seatAmount"/>
+      <xs:element name="id">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="6"/>
+            <xs:enumeration value="3"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="stewardType">
+    <xs:sequence>
+      <xs:element name="name">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="Mike"/>
+            <xs:enumeration value="Andrew"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+      <xs:element type="xs:string" name="workExperience"/>
+      <xs:element type="xs:string" name="jobDescription"/>
+      <xs:element name="lastName">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="Bee"/>
+            <xs:enumeration value="Gale"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+      <xs:element type="xs:string" name="salary"/>
+      <xs:element name="id">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="5"/>
+            <xs:enumeration value="2"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="lowCostAirlineTripAmericanType">
+    <xs:sequence>
+      <xs:element type="pilotType" name="pilot"/>
+      <xs:element type="aircraftType" name="aircraft"/>
+      <xs:element type="stewardType" name="steward"/>
+      <xs:element type="xs:string" name="category"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="lowCostAirlineTripBlueSkyType">
+    <xs:sequence>
+      <xs:element type="pilotType" name="pilot"/>
+      <xs:element type="aircraftType" name="aircraft"/>
+      <xs:element type="stewardType" name="steward"/>
+      <xs:element type="xs:string" name="category"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="LowCostAirlinesType">
+    <xs:sequence>
+      <xs:element type="lowCostAirlineTripAmericanType" name="lowCostAirlineTripAmerican"/>
+      <xs:element type="lowCostAirlineTripBlueSkyType" name="lowCostAirlineTripBlueSky"/>
+    </xs:sequence>
+  </xs:complexType>
+</xs:schema>
