@@ -1,6 +1,5 @@
 package com.lowcostairline.command;
 
-
 import com.lowcostairline.command.common.GetAircraftsCommand;
 import com.lowcostairline.command.common.GetPilotsCommand;
 import com.lowcostairline.command.common.RegisterCommand;
@@ -9,7 +8,6 @@ import java.util.HashMap;
 import java.util.Map;
 
 public enum CommandType {
-
     COMMON_REGISTER(new RegisterCommand()),
     GET_AIRCRAFTS(new GetAircraftsCommand()),
     GET_PILOTS(new GetPilotsCommand());

@@ -1,6 +1,5 @@
 package com.lowcostairline.command.common;
 
-
 import com.lowcostairline.beans.airline.lowCostAirline.LowCostAirlineTrip;
 import com.lowcostairline.beans.crew.AircraftCrew;
 import com.lowcostairline.command.Command;
@@ -27,6 +26,4 @@ public class RegisterCommand implements Command {
 
         return new Page("/jsp/stewards.jsp", true);
     }
-
 }
-

@@ -1,7 +1,6 @@
 package com.lowcostairline.exception;
 
-public class ParserException extends Exception {
-
+public class ParserException extends Exception{
     public ParserException() {
         super("ParserException : Can't continue Parsing check xml file  \n");
     }
@@ -17,5 +16,4 @@ public class ParserException extends Exception {
     public ParserException(Exception e) {
         super(e);
     }
-
 }

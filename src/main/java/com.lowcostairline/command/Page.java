@@ -1,8 +1,6 @@
 package com.lowcostairline.command;
 
-
 public class Page {
-
     /**
      * Common pages.
      */

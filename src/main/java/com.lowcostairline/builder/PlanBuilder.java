@@ -4,7 +4,10 @@ import com.lowcostairline.beans.aircraft.Aircraft;
 import com.lowcostairline.beans.airline.lowCostAirline.LowCostAirlineTrip;
 import com.lowcostairline.beans.crew.AircraftCrew;
 import com.lowcostairline.exception.ParserException;
-import org.w3c.dom.*;
+import org.w3c.dom.Document;
+import org.w3c.dom.Element;
+import org.w3c.dom.Node;
+import org.w3c.dom.NodeList;
 import org.xml.sax.SAXException;
 
 import javax.xml.parsers.DocumentBuilder;
@@ -86,13 +89,11 @@ public class PlanBuilder {
 
         lowCostAirlineTrip.setAircraft(aircraft);
         lowCostAirlineTrips.add(lowCostAirlineTrip);
-        return lowCostAirlineTrip;
-    }
+        return lowCostAirlineTrip;    }
     private String getElementTextContent(Element element, String elementName, int index) {
         NodeList nList = element.getElementsByTagName(elementName);
         Node node = nList.item(index);
         return node.getTextContent();
 
     }
-
 }
