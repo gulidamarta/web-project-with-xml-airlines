@@ -32,8 +32,9 @@ public class PlanBuilder {
             DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
             DocumentBuilder docBuilder = factory.newDocumentBuilder();
             Document doc = docBuilder.parse(path);
+            doc.normalizeDocument();
             Element root = doc.getDocumentElement();
-            NodeList nodeList = root.getElementsByTagNameNS("http://techprimers.com/spring-boot-soap-example","lowCostAirlineTrips");
+            NodeList nodeList = root.getElementsByTagName("lowCostAirlineTrips");
 
             for (int i = 0; i < nodeList.getLength(); i++) {
                 Element element = (Element) nodeList.item(i);
@@ -89,7 +90,9 @@ public class PlanBuilder {
 
         lowCostAirlineTrip.setAircraft(aircraft);
         lowCostAirlineTrips.add(lowCostAirlineTrip);
-        return lowCostAirlineTrip;    }
+        return lowCostAirlineTrip;
+    }
+
     private String getElementTextContent(Element element, String elementName, int index) {
         NodeList nList = element.getElementsByTagName(elementName);
         Node node = nList.item(index);
