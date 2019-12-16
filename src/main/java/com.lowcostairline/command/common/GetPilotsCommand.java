@@ -13,6 +13,8 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
+import static com.lowcostairline.command.Page.GET_PILOTS_PAGE_PATH;
+
 public class GetPilotsCommand implements Command {
 
     @Override
@@ -25,6 +27,6 @@ public class GetPilotsCommand implements Command {
         List<AircraftCrew> list = Arrays.asList(list1.get(0).getPilot(),list1.get(1).getPilot());
         session.setAttribute("list", list);
 
-        return new Page("/jsp/pilots.jsp", true);
+        return new Page(GET_PILOTS_PAGE_PATH, true);
     }
 }

@@ -4,7 +4,10 @@ public class Page {
     /**
      * Common pages.
      */
-    // public static final String LOGIN_PAGE_PATH = "/jsp/common/login.jsp";
+    public static final String LOGIN_PAGE_PATH = "/jsp/common/login.jsp";
+    public static final String GET_AIRCRAFT_PAGE_PATH = "/jsp/aircrafts.jsp";
+    public static final String GET_PILOTS_PAGE_PATH = "/jsp/pilots.jsp";
+    public static final String GET_STEWARDS_PAGE_PATH = "/jsp/stewards.jsp";
 
 
     private final String pageUrl;

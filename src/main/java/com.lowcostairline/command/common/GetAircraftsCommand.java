@@ -12,20 +12,19 @@ import javax.servlet.http.HttpSession;
 import java.util.Arrays;
 import java.util.List;
 
+import static com.lowcostairline.command.Page.GET_AIRCRAFT_PAGE_PATH;
+
 public class GetAircraftsCommand implements Command {
     @Override
     public Page execute(HttpServletRequest request) throws ParserException {
         String xmlPath = "C:/Users/marta/Downloads/Marta_Java/lab3/lab3/lowcost.xml";
 
         HttpSession session = request.getSession();
-        //then
         DomParser domParser = new DomParser();
         List<LowCostAirlineTrip> list1 = domParser.parse(xmlPath);
-      //  SaxParser saxParser = new SaxParser(new PlanHandler());
-       // List<LowCostAirlineTrip> list1 = saxParser.parse(xmlPath);
         List<Aircraft> list = Arrays.asList(list1.get(0).getAircraft(),list1.get(1).getAircraft());
         session.setAttribute("list", list);
 
-        return new Page("/jsp/aircrafts.jsp", true);
+        return new Page(GET_AIRCRAFT_PAGE_PATH, true);
     }
 }

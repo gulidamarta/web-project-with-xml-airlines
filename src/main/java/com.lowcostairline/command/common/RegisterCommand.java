@@ -13,6 +13,8 @@ import javax.servlet.http.HttpSession;
 import java.util.Arrays;
 import java.util.List;
 
+import static com.lowcostairline.command.Page.GET_STEWARDS_PAGE_PATH;
+
 public class RegisterCommand implements Command {
 
     @Override
@@ -24,6 +26,6 @@ public class RegisterCommand implements Command {
         List<AircraftCrew> list = Arrays.asList(list1.get(0).getSteward(),list1.get(1).getSteward());
         session.setAttribute("list", list);
 
-        return new Page("/jsp/stewards.jsp", true);
+        return new Page(GET_STEWARDS_PAGE_PATH, true);
     }
 }
